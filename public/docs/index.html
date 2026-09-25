@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" data-theme="dark">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
+<head>
+  
+  <meta name="generator" content="Hugo 0.166.0">
+  <meta name="generator-theme" content="Book Theme: https://github.com/alex-shpak/hugo-book">
+
+
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/">
+<meta name="color-scheme" content="light dark">
+<meta name="format-detection" content="telephone=no"><meta property="og:url" content="https://docs.fluffypunk.fyi/docs/">
 	<meta property="og:site_name" content="Шизофренічна документація про Linux для чайників">
 	<meta property="og:title" content="Docs">
 	<meta property="og:locale" content="en_us">
@@ -26,18 +28,18 @@ https://github.com/alex-shpak/hugo-book
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/docs/">
-<link rel="stylesheet" href="/book.min.23c00045611929e06d4c3b3196c0a7ecf03a702015e08827a09b3ce551e49a4e.css" integrity="sha256-I8AARWEZKeBtTDsxlsCn7PA6cCAV4IgnoJs85VHkmk4=" crossorigin="anonymous">
+<link rel="canonical" href="https://docs.fluffypunk.fyi/docs/">
+<link rel="stylesheet" href="/book.min.8280b157fc1158f6c874d155ebf7ebbf6a1ec2e781400ea12e9c295e00ce087e.css" integrity="sha256-goCxV/wRWPbIdNFV6/frv2oewueBQA6hLpwpXgDOCH4=" crossorigin="anonymous">
 
 
-<script type="module" src="/en.search.min.d9ef1dc1d579bd86619552cfdb2b43b1181ecb107200d870b35aa91452e9de42.js" integrity="sha256-2e8dwdV5vYZhlVLP2ytDsRgeyxByANhws1qpFFLp3kI=" crossorigin="anonymous"></script><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/index.xml" title="Docs" />
+<script type="module" src="/en.search.min.000c5dea82ef3c8a3bb0a13425a132e00c494edf96c7f5fe4c299193a64f917b.js" integrity="sha256-AAxd6oLvPIo7sKE0JaEy4AxJTt&#43;Wx/X&#43;TCmRk6ZPkXs=" crossorigin="anonymous"></script><link rel="alternate" type="application/rss+xml" href="https://docs.fluffypunk.fyi/docs/index.xml" title="Docs" />
 
   
 </head>
 <body dir="ltr" class="book-kind-section book-type-docs">
   <main class="container flex">
     
-<aside class="book-menu">
+<aside class="book-menu" aria-label="Menu">
   <div class="book-menu-content">
     
   <nav>
@@ -47,14 +49,15 @@ https://github.com/alex-shpak/hugo-book
 </div>
 
 <div class="book-search hidden">
-  <input id="book-search-input" type="text"
+  <input id="book-search-input" type="text" role="searchbox" enterkeyhint="search"
     placeholder="Search"
     aria-label="Search"
     maxlength="64" />
   <div class="book-search-spinner hidden"></div>
-  <ul id="book-search-results"></ul>
+  <ul id="book-search-results" aria-live="polite"></ul>
 </div>
 <script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
 
 
 
@@ -79,7 +82,7 @@ https://github.com/alex-shpak/hugo-book
     <label for="section-4afb675d877bdbf886cdff2ddae57614" class="flex">
       <a href="/docs/newbie/" class="">
         Початковий рівень</a>
-      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg#chevron-right"></use></svg>
     </label>
   
 
@@ -129,8 +132,8 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" id="section-266038370c8efa487f5224e11324a59b" class="toggle"  />
     <label for="section-266038370c8efa487f5224e11324a59b" class="flex">
       <a href="/docs/articles/" class="">
-        <img src="/icons/edit.svg" class="book-icon" alt="edit" />Articles</a>
-      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+        <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg#edit"></use></svg>Articles</a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg#chevron-right"></use></svg>
     </label>
   
 
@@ -184,6 +187,8 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+
+
 </nav>
 
 
@@ -201,8 +206,8 @@ https://github.com/alex-shpak/hugo-book
       
   <div class="flex align-center justify-between gap">
   <input type="checkbox" class="toggle" id="menu-control" />
-  <label for="menu-control">
-    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  <label for="menu-control" aria-label="Menu">
+    <svg class="book-icon"><use href="/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg#menu"></use></svg>
   </label>
 
   <div class="book-brand">
@@ -213,8 +218,8 @@ https://github.com/alex-shpak/hugo-book
 
   
   <input type="checkbox" class="toggle" id="toc-control" />
-  <label for="toc-control">
-    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+  <label for="toc-control" aria-label="Table of Contents">
+    <svg class="book-icon"><use href="/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg#toc"></use></svg>
   </label>
   
 </div>
@@ -268,7 +273,7 @@ https://github.com/alex-shpak/hugo-book
 
     
   
-  <aside class="book-toc">
+  <aside class="book-toc" aria-label="Table of Contents">
     <div class="book-toc-content">
       
   
