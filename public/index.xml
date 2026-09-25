@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Home on Шизофренічна документація про Linux для чайників</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on Шизофренічна документація про Linux для чайників</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>First Article</title>
+				<link>http://localhost:1313/docs/articles/first-article/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/articles/first-article/</guid>
+				<description>&lt;h1 id=&#34;first-article&#34;&gt;First Article&lt;a class=&#34;anchor&#34; href=&#34;#first-article&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Intro paragraph explaining the topic.&lt;/p&gt;&#xA;&lt;h2 id=&#34;section-heading&#34;&gt;Section Heading&lt;a class=&#34;anchor&#34; href=&#34;#section-heading&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Body content, code blocks, lists, etc.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Getting Started</title>
+				<link>http://localhost:1313/docs/getting-started/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/getting-started/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Вибір дистрибутиву</title>
+				<link>http://localhost:1313/docs/newbie/distohopping/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/newbie/distohopping/</guid>
+				<description>&lt;h1 id=&#34;вибір-дистрибутиву&#34;&gt;Вибір дистрибутиву&lt;a class=&#34;anchor&#34; href=&#34;#%d0%b2%d0%b8%d0%b1%d1%96%d1%80-%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d1%83&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Дуже частим питанням є вибір дистрибутиву, оскільки Linux - це варіативність. У виборі дистрибутиву варто враховувати потреби користувача, рівень його досвіду та бажану начинку системи.&#xA;Саме тому варто обрати дві речі - базовий дистрибутив та робоче середовище.&lt;/p&gt;&#xA;&lt;h2 id=&#34;дистрибутиви-linux&#34;&gt;Дистрибутиви Linux&lt;a class=&#34;anchor&#34; href=&#34;#%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d0%b8-linux&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Основних незалежних дистрибутивів Linux декілька і вони формують основу для багатьох похідних дистрибутивів. Їх варто розглядати як чисті основи для формування власних середовищ.&lt;/p&gt;&#xA;&lt;h3 id=&#34;debian&#34;&gt;Debian&lt;a class=&#34;anchor&#34; href=&#34;#debian&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Debian є одним з найстаріших і найстабільніших дистрибутивів Linux. Його принцип оновлення полягає у ретельному тестуванні пакетів перед їх включенням до стабільної гілки, що забезпечує високу надійність системи. Тому глобальні релізи Debian виходять рідше за інші дистрибутиви, але користувачі отримують більш стабільну систему. Така система переважно підходить для серверів або робочих станцій, де стабільність важливіша за найновіше програмне забезпечення.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Вибір робочого середовища</title>
+				<link>http://localhost:1313/docs/newbie/select-desktop/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/newbie/select-desktop/</guid>
+				<description>&lt;h1 id=&#34;вибір-робочого-середовища&#34;&gt;Вибір робочого середовища&lt;a class=&#34;anchor&#34; href=&#34;#%d0%b2%d0%b8%d0%b1%d1%96%d1%80-%d1%80%d0%be%d0%b1%d0%be%d1%87%d0%be%d0%b3%d0%be-%d1%81%d0%b5%d1%80%d0%b5%d0%b4%d0%be%d0%b2%d0%b8%d1%89%d0%b0&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Кожен дистрибутив або має обране середовище робочого столу за замовчуванням, або дозволяє користувачеві вибирати серед кількох доступних варіантів під час встановлення системи. Вибір робочого середовища впливає на зовнішній вигляд, функціональність та продуктивність системи, тому важливо враховувати свої потреби та вподобання при його виборі.&lt;/p&gt;&#xA;&lt;h2 id=&#34;середовища-робочого-столу&#34;&gt;Середовища робочого столу&lt;a class=&#34;anchor&#34; href=&#34;#%d1%81%d0%b5%d1%80%d0%b5%d0%b4%d0%be%d0%b2%d0%b8%d1%89%d0%b0-%d1%80%d0%be%d0%b1%d0%be%d1%87%d0%be%d0%b3%d0%be-%d1%81%d1%82%d0%be%d0%bb%d1%83&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Середовище робочого столу (Desktop Environment, DE) визначає зовнішній вигляд та поведінку графічного інтерфейсу користувача в Linux. Воно представляє собою готову до використання комбінацію віконного менеджера та елементів керування, формуючи кінцевий продукт. Вибір середовища робочого столу в якості основного інтерфейсу є гарною стартовою точкою через відсутність потреби у додатковому налаштуванні та інтеграції окремих компонентів системи.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Second Article</title>
+				<link>http://localhost:1313/docs/articles/second-article/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/articles/second-article/</guid>
+				<description>&lt;h1 id=&#34;second-article&#34;&gt;Second Article&lt;a class=&#34;anchor&#34; href=&#34;#second-article&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Another example page showing a second entry in the Articles section.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

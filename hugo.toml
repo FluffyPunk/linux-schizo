@@ -1,0 +1,12 @@
+baseURL = 'https://docs.fluffypunk.fyi/'
+theme = 'hugo-book'
+locale = 'en-us'
+title = 'Шизофренічна документація про Linux для чайників'
+
+
+[params]
+
+BookTheme = 'dark'
+
+[markup.goldmark.renderer]
+unsafe = true
