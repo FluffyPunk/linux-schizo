@@ -1,6 +1,6 @@
 ---
 title: "Вибір робочого середовища"
-weight: 1
+weight: 2
 params:
   # bookFlatSection: false
   # bookToc: true
