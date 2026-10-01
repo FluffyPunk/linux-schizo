@@ -1,0 +1,7 @@
+{{- $level := .Get "level" | default "2" -}}
+{{- $id := .Get "id" -}}
+{{- $text := .Inner | .Page.RenderString -}}
+<h{{ $level }} id="{{ $id }}">
+  {{- $text -}}
+  <a class="anchor" href="#{{ $id }}" aria-label="{{ partial "docs/text/i18n" "Link" }}"></a>
+</h{{ $level }}>
