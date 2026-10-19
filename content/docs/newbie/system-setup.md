@@ -157,21 +157,29 @@ lspci -nnk | grep -A 3 VGA
 
 Фікс:
 
+{{<tabs>}}
+{{% tab "Debian/Ubuntu" %}} ```bash
+sudo apt install nvidia-open
+```
+{{% /tab %}}
+
+{{% tab "Fedora" %}}
+> [!INFO]
 > Для Fedora треба мати ввімкнений [RPM Fusion](#rpm-fusion)
+ ```bash
+sudo dnf install akmod-nvidia-open
+```{{% /tab %}}
+
+{{% tab "Arch" %}} ```bash
+# Стандартне ядро
+sudo pacman -S nvidia-open nvcidia-utils
+
+# Кастомне ядро (все, що не написано як просто linux, тобто linux-xanmod, linux-zen, linux-cachyos і т.д.)
+sudo pacman -S nvidia-open-dkms nvidia-utils
+```{{% /tab %}}
+{{</tabs>}}
 
 ```bash
-# Debian/Ubuntu
-sudo apt install nvidia-open
-
-# Fedora 
-sudo dnf install akmod-nvidia-open
-
-# Arch (стандартне ядро)
-sudo pacman -S nvidia-open
-
-# Arch (кастомне ядро)
-sudo pacman -S nvidia-open-dkms
-
 # Незалежно від системи після встановлення
 nvidia-smi
 
