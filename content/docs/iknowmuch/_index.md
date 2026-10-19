@@ -1,12 +1,12 @@
 ---
-title: "First Article"
-weight: 1
+title: "Рівень 'Фембой в панчохах'"
+weight: 3
 params:
   # bookFlatSection: false
   # bookToc: true
   # bookBreadcrumbs: false
   # bookPageLinks: false
-  bookHidden: false
+  # bookHidden: false
   # bookCollapseSection: false
   # bookComments: false
   # bookSearchExclude: false
@@ -14,14 +14,4 @@ params:
   # bookIcon: ''
 ---
 
-# First Article
-
-Intro paragraph explaining the topic.
-
-## Section Heading
-
-Body content, code blocks, lists, etc.
-
-```bash
-echo "hello"
-```
+Тут буде документація для тих, хто вже знає, що юзати і як юзати

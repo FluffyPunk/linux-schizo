@@ -16,13 +16,13 @@ bookToC: false
 
   {{<button href="/docs/newbie">}}Get Started{{</button>}}
 
-- ### Articles {anchor=false}
-  Write-ups and deep dives on specific topics.
+- ### Шось середнє {anchor=false}
+  Я маю уявлення про роботу з Linux, однак не знаю більшості продуктивних речей.
 
-  {{<button href="/docs/getting-started">}}Get Started{{</button>}}
+  {{<button href="/docs/midlevel">}}Get Started{{</button>}}
 
-- ### Simple {anchor=false}
-  Built with Hugo + hugo-book theme, no heavy JS.
+- ### I use Arch btw {anchor=false}
+  Тікайте, я вдягнув панчохи.
 
-  {{<button href="/docs/getting-started">}}Get Started{{</button>}}
+  {{<button href="/docs/iknowmuch">}}Get Started{{</button>}}
 {{% /columns %}}
