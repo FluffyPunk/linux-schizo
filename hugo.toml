@@ -1,6 +1,6 @@
 baseURL = 'https://docs.fluffypunk.fyi/'
 theme = 'hugo-book'
-locale = 'en-us'
+locale = 'uk-ua'
 title = 'Шизофренічна документація про Linux для чайників'
 
 
