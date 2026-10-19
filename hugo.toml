@@ -3,11 +3,9 @@ theme = 'hugo-book'
 locale = 'uk-ua'
 title = 'Шизофренічна документація про Linux для чайників'
 
-
 [params]
 
-BookTheme = 'dark'
-
+BookTheme = 'ayu-auto'
 
 [markup]
 
